@@ -27,10 +27,11 @@ function pesquisar() {
             </div>
           `;
         } 
-        if (!resultados) {
-            resultados = "<p>Não encontrado</p>";
-        }   
+        
     }
+    if (!resultados) {
+        resultados = "<p>Não encontrado</p>";
+    }   
   
     // Insere os resultados construídos na seção HTML
     section.innerHTML = resultados;
